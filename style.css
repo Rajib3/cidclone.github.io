@@ -1,0 +1,257 @@
+nav{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border-bottom: 3px solid rgb(50, 155, 178);
+}
+
+/* header  */
+
+/* header{
+    background-color: rgb(21, 212, 212);
+} */
+
+.visible-logo {
+    display: none  ;
+}
+nav .nav-link{
+    border-radius: 5px;
+    
+}
+nav .nav-link:hover {
+    background-color: rgb(38, 178, 148) !important;
+    color: white !important;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-top: 3px;
+}
+nav .dropdown-item:hover{
+    background-color: rgb(38, 178, 148) !important;
+    color: white !important;
+}
+.nav-btn{
+    background-color: rgba(61, 191, 90, 0.881);
+    text-align: center;
+    color: white;
+    padding: 4px 3px;
+}
+ 
+/* Division & Unit  */
+ 
+.units a{
+   padding: 6px 7px; 
+   border-top: 1px solid rgba(0, 0, 0, 0.2) ; 
+   background-color: rgb(72, 154, 231);
+   display: block;
+   border-bottom: 1px solid rgb(104, 184, 207);
+   border-left: 4px solid transparent;
+   transition: 0.3s;
+   
+}
+audio{
+    display: none;
+}
+.units .units-list:hover{
+    border-left: 5px solid rgb(38, 93, 145);
+    background-color: rgb(50, 195, 190);
+    transition: 0.2s;
+    padding-left: 10px;
+}
+.unit-head{
+    border:1px solid rgba(0, 0, 0, 0.2) !important ;
+}
+
+.units .kp, .wbp{
+    background: url(./Image/gradient.png)
+}
+.units .logo{
+    border: 1px solid rgba(61, 134, 157, 0.713);
+}
+
+/* banner part  */
+.banner-part h4{
+    color: rgb(19, 140, 140);
+}
+
+
+
+
+
+/* Tab Part  */
+
+.tab-navigation{
+    padding: 0;
+    margin: 0;
+}
+.tab-navigation li{
+    list-style: none;
+    font-size: 14px; 
+    padding: 5px 19px;
+    padding-top: 11px;
+    border: 1px solid #d2d6de;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0 ;
+    display: table-cell;
+    width: 1%;
+    background-color: #eff1e7;
+    cursor: pointer;
+}
+.tab-navigation li:hover{
+    border-color: #29c9f0;;
+}
+
+.tab-navigation li.active{
+    background-color: white;
+    border-color:#d2d6de;
+    color:rgb(17, 129, 177);
+    cursor:context-menu;
+}
+
+.tab-container{
+    display: none;
+}
+.tab-container .view-link{
+    font-size: 13px;
+    padding: 0px 6px 2px 6px;
+    border-radius: 10px;
+}
+
+.tab-container a{
+    float: right ;
+    margin: 0px 10px 6px 10px;
+}
+.tab-container .btn{
+     font-size: 13px;
+     margin: 0px !important;
+     text-align: center;
+     float: none;
+     color: white;
+}
+
+
+/* Accordian part  */
+.missing-found-portal{
+    font-size: 13px;
+    text-align: justify;
+}
+.accordian{
+    height: 340px;
+    
+}
+.accordian .achievements{
+    padding: 10px;
+    background-color: #2a52c1e6;
+    z-index: 1;
+}
+.accordian .achievements:hover{
+    background-color: #1f3b87e6; 
+}
+.accordian .achievement-list{
+    height: 270px;
+    overflow: auto;
+}
+.accordian i{
+    float: right;
+}
+
+.accordian h6 i{
+    float: left;
+    align-items: center;
+    text-wrap: nowrap;
+}
+.accordian .card-header{
+    cursor: pointer;
+    z-index: 0;
+
+}
+.accordian .card-body{
+    display: none;
+    font-size: 13px;
+}
+
+.accordian .card-body.active{
+    display: block;
+}
+/* Officer  */
+.dd-units h4{
+    color: rgb(19, 140, 140);
+}
+.dd-units .btn{
+    width: 200px !important;
+}
+.dd-units .card{
+    font-size: 12px;
+    border-radius: 8px; 
+     
+}
+.dd-units .card:hover{
+    background-color: antiquewhite !important;
+   }
+.dd-units .card h5{
+    font-size: 15px;
+}
+
+/* Footer  */
+
+footer a:hover{
+    text-decoration: underline !important;
+    
+}
+footer{
+    background-color:#e3e6ea;
+}
+
+
+@media (max-width: 767px){
+    .visible-logo {
+        display: block !important;
+    }
+     nav{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        font-size: 12px;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .navbar-toggler{
+        font-size: 17px !important;
+        padding: 3px 8px;
+    }
+    .nav-link{
+        padding: 15px 0;
+        padding-left: 10px;
+    }
+    .banner-part{
+        font-size: 14px;
+    }
+    .units li{
+        font-size: 14px;
+    }
+    .tab-navigation li{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 16px;
+    }
+    footer{
+        font-size: 13px;
+        padding-left: 14px;
+    }
+    footer h5{
+        font-size: 18px;
+    }
+    .banner-part{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tab-container li{
+        padding-bottom: 34px  !important;
+        padding-top: 20px !important;
+        padding-left: 8px !important ;
+    }
+    .footer-bottom{
+        text-align: center;
+    }
+     
+}
+
